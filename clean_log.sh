@@ -1,4 +1,4 @@
 #!/bin/bash
 rm -rf /var/log
 rm -rf /var/spool
-rm ~/.bash_history
+rm /home/dog/.bash_history
