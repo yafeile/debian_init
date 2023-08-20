@@ -1,0 +1,5 @@
+# 
+# Line commented out by installer because it failed to verify:
+deb http://mirrors.163.com/debian-archive/debian stretch main non-free contrib
+deb http://mirrors.163.com/debian-archive/debian stretch-updates main non-free contrib
+deb http://mirrors.163.com/debian-archive/debian stretch-backports main non-free contrib
