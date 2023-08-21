@@ -11,3 +11,6 @@ dpkg -i /backup/software/libpng12-0_1.2.50-2+deb8u3_amd64.deb
 dpkg -i /backup/software/wps-office_10.1.0.5444~a20_amd64.deb
 dpkg -i /backup/software/wiznote_2.5.1-2_amd64.deb
 tar xvf /backup/software/sublime_text_build_4107_x64.tar.xz -C /opt
+nano /etc/locale.gen
+# 设置en_GB UTF-8与zh_HK.UTF-8
+echo LC_CTYPE=zh_HK.UTF-8 >> /etc/environment
