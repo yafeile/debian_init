@@ -14,3 +14,5 @@ tar xvf /backup/software/sublime_text_build_4107_x64.tar.xz -C /opt
 nano /etc/locale.gen
 # 设置en_GB UTF-8与zh_HK.UTF-8
 echo LC_CTYPE=zh_HK.UTF-8 >> /etc/environment
+apt-get install linux-image-4.9.0-13-amd64
+apt-get purge linux-image-4.9.0-9-amd64
