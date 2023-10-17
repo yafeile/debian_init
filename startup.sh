@@ -1,7 +1,8 @@
 #!/bin/bash
 apt-get install fcitx ttf-wqy-zenhei git ffmpeg libqt5webenginecore5 build-essential python-dev python-xlib -y
 apt-get install linux-headers-4.9.0-13-amd64 -y
-apt-get install gvfs-bin python3-gi gir1.2-appindicator3-0.1 gir1.2-notify-0.7
+apt-get install gvfs-bin python3-gi gir1.2-appindicator3-0.1 gir1.2-notify-0.7 libssl-dev
+apt-get install mtp-tools libmtp9 libmtp-common libmtp-runtime gvfs-backends libzip-dev
 journalctl --rotate
 journalctl --vacuum-time=1day
 wget https://www.jianguoyun.com/static/exe/installer/nutstore_linux_dist_x64.tar.gz -O /tmp/nutstore_bin.tar.gz
@@ -14,5 +15,5 @@ tar xvf /backup/software/sublime_text_build_4107_x64.tar.xz -C /opt
 nano /etc/locale.gen
 # 设置en_GB UTF-8与zh_HK.UTF-8
 echo LC_CTYPE=zh_HK.UTF-8 >> /etc/environment
-apt-get install linux-image-4.9.0-13-amd64
+apt-get install linux-image-4.9.0-13-amd64 linux-headers-4.9.0-13
 apt-get purge linux-image-4.9.0-9-amd64
