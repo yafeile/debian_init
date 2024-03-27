@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get install fcitx ttf-wqy-zenhei sudo git ffmpeg libqt5webenginecore5 build-essential python-dev python-xlib tk-dev -y
-apt-get install linux-headers-4.9.0-13-amd64 -y
+apt-get install linux-headers-4.9.0-13-amd64 evince -y
 apt-get install gvfs-bin python3-gi gir1.2-appindicator3-0.1 gir1.2-notify-0.7 libssl-dev libncurses5-dev libreadline6-dev -y
 apt-get install mtp-tools libmtp9 libmtp-common libmtp-runtime gvfs-backends libzip-dev libffi-dev libbz2-dev liblzma-dev -y
 journalctl --rotate
